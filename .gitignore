@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables (IMPORTANT - keep your MongoDB connection string safe)
+.env
+.env.local
+.env.development
+.env.production
+
+# MongoDB data
+data/
+db/
+mongodb-data/
+
+# Docker
+docker-compose.override.yml
+
+# TypeScript compiled output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
