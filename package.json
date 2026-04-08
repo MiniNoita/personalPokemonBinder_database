@@ -1,0 +1,21 @@
+{
+  "name": "personalpokemonbinder_database",
+  "version": "1.0.0",
+  "description": "I love Pokemon, I collect cards but specific cards. So this was good concept for school project I need to make using MongoDB!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiniNoita/personalPokemonBinder_database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiniNoita/personalPokemonBinder_database/issues"
+  },
+  "homepage": "https://github.com/MiniNoita/personalPokemonBinder_database#readme"
+}
