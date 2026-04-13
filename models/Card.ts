@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const CardSchema = new mongoose.Schema({
   pokemon_name: { type: String, required: true },
@@ -9,7 +9,7 @@ const CardSchema = new mongoose.Schema({
   in_binder: { type: Boolean, required: true },
   in_wishlist: { type: Boolean, required: true },
   card_count: { type: Number, min: 0 },
-  img_url: { type: String },
+  /*img_url: { type: String },*/
 });
 
-module.exports = CardSchema;
+export default CardSchema;
