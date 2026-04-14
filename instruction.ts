@@ -50,4 +50,41 @@ Also name the connection "pokemon_binder". Then click "save and connect". When w
 
 ///////////////////////////////
 
+Now we can start to add data!
+
+Open up the terminal in vscode (Crtl + j) and run the addCards.ts with "node addCards.ts"
+
+After you have run it (you should see the card information in the terminal) press CRTL + C to exit the run. So easy!
+
+Now when you go to your MongoDB Compass, refreshed the database you should see all the data we just added. If you don't see it, close the tab in the MongoDB (should be called "binders") and then open it back again. Now you should see it, repeat the process one more time if you don't still see it.
+
+Now we can go to the queries!
+
+///////////////////////////
+
+--------- Queries ---------
+
+//////////////////////////
+
+Questions:
+
+1. What Pokemon's do I have saved into the database? (Early draft when each card needs to be added versus not fetched from API. This also means the pokemon name only)
+
+2. How many cards do I have in binder of each Pokemon and how many cards do I have in binder all together? (card needs to have "in_binder": true. Also isn't the quantity/count, how many different cards do I have)
+
+3. What cards I have wished, how many are there? (card needs to have "in_wishlist":true)
+
+4. How many cards do I have in binder including duplicates? (Sum up every card's "count" attribute)
+
+5. What is the count on each card? (Display Pokemon name, the card and the count)
+
+6. Do I have any Rare cards? (Needs to have the "Rare" in the card_type)
+
+7. What elemental types do i have? ("elemental_type")
+
+////////////////////////////////
+
+--------- Editing Data ---------
+
+////////////////////////////////
 */
