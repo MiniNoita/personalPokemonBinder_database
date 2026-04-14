@@ -1,5 +1,3 @@
-import CardSchema from './models/Card.js';
-
 const cardList_Rockruff = [
   {
     pokemon_name: 'Rockruff',
@@ -53,7 +51,7 @@ const cardList_Rockruff = [
   },
 ];
 
-const cardList_zacian = [
+const cardList_Zacian = [
   {
     pokemon_name: 'Zacian',
     set_and_cardnum: 'PFLen_100/094',
@@ -109,4 +107,4 @@ const cardList_Lycanroc = [
   },
 ];
 
-export { cardList_Rockruff, cardList_zacian, cardList_Lycanroc };
+export { cardList_Rockruff, cardList_Zacian, cardList_Lycanroc };

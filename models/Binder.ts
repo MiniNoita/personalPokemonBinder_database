@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import CardSchema from './Card.js';
+import CardSchema from './Card.ts';
 
 const BinderSchema = new mongoose.Schema({
   pokemon_name: { type: String, unique: true, required: true },
@@ -9,4 +9,4 @@ const BinderSchema = new mongoose.Schema({
 const Binder = mongoose.model('Binder', BinderSchema);
 
 //Export the model
-export default BinderSchema;
+export { Binder, BinderSchema };
