@@ -70,6 +70,8 @@ First I have the questions that show the use cases. Then there is a command you 
 
 Note: if the files are not found, check what folder you are in right now and adjust the command accordingly
 
+All queries for these are in "queries" folder.
+
 Questions:
 
 1. What Pokemon's do I have saved into the database? (Early draft when each card needs to be added versus not fetched from API. This also means the pokemon name only)
@@ -97,4 +99,17 @@ Questions:
 --------- Editing Data ---------
 
 ////////////////////////////////
+
+All queries for editing data 
+
+1. I had wishlisted "Hop's Zacian ex", set and number "JTGen_186/159" card and I bought it. Now I want it to show in Binder (in_wishlist: false, in_binder: true, count: 1)
+
+  node editQueries/boughtWish.ts
+
+2. I sold two of my cards both being "Rockruff", set and number "109/196".
+
+  node editQueries/soldCard.ts
+
+
+Note: In this first draft, you need to do the findCards.ts (for second edit)/wishlist.ts (for first edit) or look at MongoDB compass to see the file is edited
 */
