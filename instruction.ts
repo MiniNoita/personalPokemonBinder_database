@@ -76,23 +76,19 @@ Questions:
 
   node queries/findAllPokemon.ts
 
-2. How many cards do I have in binder of each Pokemon and how many cards do I have in binder all together? (card needs to have "in_binder": true. Also isn't the quantity/count, how many different cards do I have)
+2. How many different cards do I have in binder of each Pokemon and how many cards do I have in binder all together (duplicates aka count)? (card needs to have "in_binder": true)
 
-  findCards.ts
+  node queries/findCards.ts
 
 3. What cards I have wished, how many are there? (card needs to have "in_wishlist":true)
 
-  wishlist.ts
+  node queries/wishlist.ts
 
-4. How many cards do I have in binder including duplicates? (Sum up every card's "count" attribute)
+4. Do I have any Rare cards? (Needs to have the "Rare" in the card_type)
 
-  cardCount.ts
+  node queries/findRare.ts
 
-5. Do I have any Rare cards? (Needs to have the "Rare" in the card_type)
-
-  findRare.ts
-
-6. What elemental types do i have? ("elemental_type")
+5. What elemental types do i have? ("elemental_type")
 
   node queries/findAllElemental.ts
 
