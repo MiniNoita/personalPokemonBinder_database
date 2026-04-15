@@ -66,11 +66,15 @@ Now we can go to the queries!
 
 //////////////////////////
 
+First I have the questions that show the use cases. Then there is a command you can copy paste to your terminal to be able to run the code!
+
+Note: if the files are not found, check what folder you are in right now and adjust the command accordingly
+
 Questions:
 
 1. What Pokemon's do I have saved into the database? (Early draft when each card needs to be added versus not fetched from API. This also means the pokemon name only)
 
-  findAllPokemon.ts
+  node queries/findAllPokemon.ts
 
 2. How many cards do I have in binder of each Pokemon and how many cards do I have in binder all together? (card needs to have "in_binder": true. Also isn't the quantity/count, how many different cards do I have)
 
@@ -90,7 +94,7 @@ Questions:
 
 6. What elemental types do i have? ("elemental_type")
 
-  findAllElemental.ts
+  node queries/findAllElemental.ts
 
 ////////////////////////////////
 
