@@ -11,11 +11,11 @@ First you will need to download [Docker Desktop](https://www.docker.com/products
 Next fork the repository. After you have done that open it up in vscode and open the terminal with `CRTL + J`. After that do this command `npm i`. 
 
 For you to be able to use mongoDB database you need to create your .env file. After you have created that file copy paste this into it:
-`
+```
 MONGO_ROOT_USERNAME=root
 MONGO_ROOT_PASSWORD=password
 MONGODB_URL=mongodb://root:password@localhost:27017/pokemon_binder?authSource=admin
-`
+```
 NOTE: remember to change your username and password! Don't put them anywhere else than to this file so they keep safe. 
 
 Now get your docker running. In command line go to the docker folder and start docker with command `docker compose up -d`. Also remember to put it down after you are done with `docker compose down`. 
