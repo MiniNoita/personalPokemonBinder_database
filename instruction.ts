@@ -36,7 +36,7 @@ After that in terminal go to docker folder "cd docker" and then use command "doc
 
 Just look at what folder you are in, you should be in "personalPokemonBinder_database" folder.
 
-Whenever you are in the right spot, type in "npx ts-node src/connect.ts" or "node src/connect.ts". In command line should now be "Connected to MongoDB!", to stop the code from running, press shift + C. 
+Whenever you are in the right spot, type in "node src/connect.ts". In command line should now be "Connected to MongoDB!", to stop the code from running, press shift + C. 
 
 Nice! The connecting to MongoDB works!
 
