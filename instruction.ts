@@ -52,7 +52,7 @@ Also name the connection "pokemon_binder". Then click "save and connect". When w
 
 Now we can start to add data!
 
-Open up the terminal in vscode (Crtl + j) and run the addCards.ts with "node addCards.ts"
+Open up the terminal in vscode (Crtl + j) and run the addCards.ts with "npm run dev:add-cards"
 
 After you have run it (you should see the card information in the terminal) press CRTL + C to exit the run. So easy!
 

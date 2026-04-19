@@ -5,23 +5,18 @@ import { Binder } from '../models/Binder.ts'; //this is the model
 // What elemental types do i have? ("elemental_type")
 
 async function findElemental() {
-  await Binder.find()
-    .then((pokemons) => {
-      pokemons.forEach((pokemon) => {
-        console.log(
-          `Pokemon "${pokemon.pokemon_name}" has cards that are this/these types:`,
-        );
+  const pokemons = await Binder.find();
+  pokemons.forEach((pokemon) => {
+    console.log(
+      `Pokemon "${pokemon.pokemon_name}" has cards that are this/these types:`,
+    );
 
-        const elementals = [
-          ...new Set(pokemon.cards.map((card) => card.elemental_type)),
-        ];
+    const elementals = [
+      ...new Set(pokemon.cards.map((card) => card.elemental_type)),
+    ];
 
-        console.log(elementals);
-      });
-    })
-    .catch((err) => {
-      throw err;
-    });
+    console.log(elementals);
+  });
 
   mongoose.disconnect();
 }
